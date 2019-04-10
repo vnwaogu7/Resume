@@ -3,8 +3,8 @@
 }
 
 body{
-  width:900px;
-  margin:0px 100px;
+  width:800px;
+  margin:0px 90px;
  
   
 }
@@ -68,8 +68,12 @@ a{
   .about, .skill, .exp, .contact{
     width: 50%;
   }
- 
+  
   img{
+    position: absolute;
+    right:0px;
+    bottom: 0px;
     margin:auto;
+    display:inline;
   }
 }
