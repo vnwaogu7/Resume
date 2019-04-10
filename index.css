@@ -61,7 +61,7 @@ a{
   font-weight:;
 }
 
-@media (min-width:500px){
+@media (min-width:700px){
   section.row {
     display:flex;
   }
