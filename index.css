@@ -28,7 +28,7 @@ h2{
 .main{
 
   font-size:13px;
-  position: relative;
+  position: block;
 
 }
 
@@ -72,14 +72,15 @@ a{
   }
   .about, .skill, .exp, .contact{
     width: 50%;
+
   }
   
   img{
     position: absolute;
-    right:10px;
-    bottom: 10px;
+    right:0px;
+    bottom:0px;
     margin:auto;
-    display:inline;
+    display:block;
   }
 }
 
@@ -87,11 +88,12 @@ a{
   margin:0px 50px;
 }
 
-footer{
+foot p{
 
   background-color:gray;
+  margin-bottom:0px;
   padding:15px 20px;
   font-size:12px;
   text-align:center;
-  border
+
 }
