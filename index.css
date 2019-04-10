@@ -50,7 +50,7 @@ h3{
 }
 
 img{
-  display: block;
+  display:inline;
   width: 150px;
   margin: 0 auto;
 }
@@ -60,9 +60,7 @@ a{
 }
 
 @media (min-width:600px){
-  body{
-    margin:0 90px;
-  }
+
   section.row {
     display:flex;
   }
@@ -77,4 +75,12 @@ a{
     margin:auto;
     display:inline;
   }
+}
+
+footer{
+  background-color:gray;
+  padding:15px 20px;
+  font-size:12px;
+  text-align:center;
+  border
 }
