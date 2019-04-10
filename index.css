@@ -1,0 +1,74 @@
+body{
+  margin:0px 50px;
+ 
+  
+}
+
+
+.top{
+  color:#5fbfef;
+  font-size:30px;
+  font-family:'IM Fell Double Pica', serif;
+  border-bottom:14px solid black;
+  text-align:center;
+}
+
+
+
+h2{
+  text-align:center;
+  color:grey;
+  font-family:arial;
+  font-size:20px;
+}
+
+.main{
+
+  font-size:13px;
+  position: relative;
+
+}
+
+.about, .exp, .skill, .contact {
+  padding:10px;
+
+}
+
+span{
+  padding:2px;
+  background-color:#5fbfef;
+  font-size:12px;
+  font-weight:bold;
+  font-family:arial;
+}
+
+h3{
+  color:#5fbfef;
+}
+
+img{
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+a{
+  font-weight:;
+}
+
+@media (min-width:500px){
+  section.row {
+    display:flex;
+  }
+  .about, .skill, .exp, .contact{
+    width: 50%;
+  }
+  
+  img{
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+    margin:auto;
+    display:inline;
+  }
+}
