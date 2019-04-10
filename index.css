@@ -68,12 +68,8 @@ a{
   .about, .skill, .exp, .contact{
     width: 50%;
   }
-  
+ 
   img{
-    position: absolute;
-    right:0px;
-    bottom: 0px;
     margin:auto;
-    display:inline;
   }
 }
